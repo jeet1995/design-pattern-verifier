@@ -8,7 +8,7 @@ Name : Abhijeet Mohanty
 ### Development environment
 * **OS :** MacOS Mojave
 * **IDE :** IntelliJ IDEA 2018.1
-* **Language used :** Java 1.8.121
+* **Language used :** Java 1.8.221
 * **Build tool used :**  Gradle 4.10.2
 
 ### Building the application
