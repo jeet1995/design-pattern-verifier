@@ -87,7 +87,7 @@ public class CaretakerRuleSet implements RuleSet {
                     elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + SHOULD_NOT_BE_PRIVATE_NOR_STATIC);
         } else {
             return new VerificationResult(Diagnostic.Kind.NOTE, element.getKind(), element, "Method declaration " +
-                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct");
+                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct.");
         }
     }
 
@@ -108,7 +108,7 @@ public class CaretakerRuleSet implements RuleSet {
                     elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + SHOULD_NOT_BE_PRIVATE_NOR_STATIC);
         } else {
             return new VerificationResult(Diagnostic.Kind.NOTE, element.getKind(), element, "Method declaration " +
-                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct");
+                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct.");
         }
     }
 

@@ -90,7 +90,7 @@ public class MementoRuleSet implements RuleSet {
                     elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + SHOULD_NOT_BE_PRIVATE_NOR_STATIC);
         } else {
             return new VerificationResult(Diagnostic.Kind.NOTE, element.getKind(), element, "Method declaration " +
-                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct");
+                    elementName + ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct.");
         }
     }
 
@@ -125,10 +125,10 @@ public class MementoRuleSet implements RuleSet {
 
         if (element.getModifiers().contains(Modifier.PRIVATE)) {
             return new VerificationResult(Diagnostic.Kind.WARNING, element.getKind(), element, "Constructor " +
-                    ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " should not be private");
+                    ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " should not be private.");
         } else {
             return new VerificationResult(Diagnostic.Kind.NOTE, element.getKind(), element, "Constructor " +
-                    ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct");
+                    ENCLOSING_ELEMENT + enclosingElementName + ANNOTATED_WITH + annotation.getSimpleName().toString() + " is correct.");
         }
     }
 

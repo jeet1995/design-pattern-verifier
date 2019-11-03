@@ -72,8 +72,14 @@ Name : Abhijeet Mohanty
     * `nameToVerifierMap` : In the `process` method in the annotation processor, the `Verifier` class to be used in order to determined if all enclosing elements required have been defined within a `CLASS` is looked up using this map.
 
 ### Results
-* The results which is in essence the output of my messager is collected using an instance of the `VerificationResult` class.
-* The results displayed below are produced at compile time.
+* The results in essence are the outputs of `messager` which is collected using an instance of the `VerificationResult` class.
+* There are a total of 3 implementations of the design pattern :
+    * `Memento`, `Originator` and the `Caretaker`
+    * `ImproperMemento`, `ImproperOriginator` and the `ImproperCaretaker`
+    * `Command` which corresponds to the `Caretaker`, `Snapshot` to the `Memento` and the `Editor` to the `Originator`
+* Then, the aforementioned annotations are added to each class and the elements it encloses.    
+* In case an annotated element is defined incorrectly or is not present, a `warning` is logged otherwise a `note` is logged. 
+* The following results produced by the annotation processor are displayed below are produced at compile time :
 
 ```
    Note: Method declaration saveSnapshot in enclosing element Editor annotated with VerifySaveMementoStateMethod is correct
@@ -118,7 +124,8 @@ Name : Abhijeet Mohanty
 ```
 
 ### Future improvements and ideas
-* A compile time usage of reflections which can verify the order in which the elements of my design pattern are used.
+* A compile time usage of reflections which can verify the order in which the elements of my design pattern are used and
+to analyze the exact return types.
 * An attempt to build a generic design pattern verifier.
 
 
