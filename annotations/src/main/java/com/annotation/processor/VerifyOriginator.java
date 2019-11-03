@@ -6,6 +6,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Annotations to verify the Originator class and its elements.
+ * */
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface VerifyOriginator {

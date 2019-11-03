@@ -5,6 +5,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * Annotations to verify the Caretaker class and its elements.
+ * */
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
 public @interface VerifyCaretaker {

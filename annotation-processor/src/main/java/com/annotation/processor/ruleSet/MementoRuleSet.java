@@ -132,6 +132,15 @@ public class MementoRuleSet implements RuleSet {
         }
     }
 
+    /**
+     * This method constructs the verification result required at the class level for elements that are not defined.
+     *
+     * @param elementSimpleName The simple name of the annotated element.
+     * @param elementKind The kind of the annotated element.
+     * @param enclosingElement The element which encloses the annotated element.
+     *
+     * @return VerificationResult
+     * */
     @Override
     public VerificationResult constructElementNotDefinedResult(String elementSimpleName, ElementKind elementKind,
             Element enclosingElement) {
