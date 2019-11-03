@@ -1,0 +1,5 @@
+rootProject.name = 'abhijeet_mohanty_cs474_hw2'
+include 'annotation-processor'
+include 'annotations'
+include 'annotated-design-patterns'
+

@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.annotation.processor'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile project(':annotations')
+    compile project(':annotation-processor')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

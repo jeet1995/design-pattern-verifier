@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'net.ltgt.apt-idea' version "0.15"
+}
+
+group 'com.annotation.processor'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile project(':annotations')
+    compile group: 'com.google.auto.service', name: 'auto-service', version: '1.0-rc1'
+    testCompile 'com.google.guava:guava:20.0'
+    testCompile 'com.google.truth:truth:0.30'
+    testCompile 'com.google.testing.compile:compile-testing:0.10'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+}
