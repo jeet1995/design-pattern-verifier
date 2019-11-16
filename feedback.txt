@@ -1,5 +1,11 @@
 Hi Abhijeet,
-Your implementation of the annotation checker for the memento pattern is designed to check the correctness of the implementation of involved components and their relationships. Your in-depth thinking and analysis shows when you describe the constraints that control the source of the instantiations of objects. You went beyond what is needed for the homework by using guava and providing a rich set of rules. It is not clear how to deploy your app - there is no information what the deliverables are, how to use jar files, what the rationale is behind your annotation interfaces, but it is a small point in the context of your excellently prepared submission. This is a great homework deliverable. You earned the full grade, 7%.
+Your implementation of the annotation checker for the memento pattern is designed to check the correctness of the implementation of involved components and their relationships. 
+Your in-depth thinking and analysis shows when you describe the constraints that control the source of the instantiations of objects. 
+You went beyond what is needed for the homework by using guava and providing a rich set of rules. 
+It is not clear how to deploy your app - there is no information what the deliverables are, how to use jar files, what the rationale is behind your annotation interfaces, 
+but it is a small point in the context of your excellently prepared submission. 
+This is a great homework deliverable. 
+You earned the full grade, 7%.
 
 Thank you,
 Mark and Aditya
